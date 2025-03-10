@@ -17,7 +17,9 @@ const CardList: React.FC<Props> = ({searchResults, onPortfolioCreate}: Props): J
            onPortfolioCreate ={onPortfolioCreate}/>
         })
       ): (
-        <h1>No Results</h1>
+        <p className="mb-3 mt-3 text-xl font-semibold text-center md:text-x1">
+        No results!
+      </p>
       )}</>;
 } 
 
