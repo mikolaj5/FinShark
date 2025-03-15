@@ -31,4 +31,4 @@ const Search: React.FC<Props> = ({
     </section>
   )
 }
-export default Search;
+export default Search; 
